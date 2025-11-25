@@ -23,3 +23,39 @@ h1 {
     font-size: 26px;
     color: #333;
 }
+
+/* Label dos campos */
+label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #444;
+}
+
+/* Campos */
+.input-field,
+.textarea,
+select {
+    width: 90%;
+    padding: 12px;
+    margin-top: 6px;
+    margin-bottom: 18px;
+    border-radius: 10px;
+    border: 1px solid #bbb;
+    font-size: 15px;
+    background: #fafafa;
+    display: flex;
+    align-items: center;
+}
+
+/* Descrição */
+.textarea {
+    height: 100px;
+    resize: none;
+}
+
+/* Placeholder */
+.textarea::placeholder {
+    color: #a0a0a0;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
