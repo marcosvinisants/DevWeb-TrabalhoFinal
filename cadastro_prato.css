@@ -59,3 +59,23 @@ select {
     font-size: 14px;
     font-family: Arial, sans-serif;
 }
+
+/* Organização em linhas (preço + categoria)  */
+.row {
+    display: flex;
+    gap: 50px;
+}
+
+.row .col {
+    flex: 1; /* Cada coluna ocupa o mesmo espaço */
+}
+
+/* Layout de Linhas do Formulário */
+.form-row {
+    display: flex;
+    gap: 20px;
+}
+
+.form-row .form-group {
+    flex: 1;
+}
