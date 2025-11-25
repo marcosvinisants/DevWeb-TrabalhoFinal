@@ -79,3 +79,36 @@ select {
 .form-row .form-group {
     flex: 1;
 }
+
+/* Botões */
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+/* Botão de cancelar */
+.btn-cancelar {
+    background: #ddd;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+/* Botão de salvar */
+.btn-salvar {
+    background: #e6461a;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+/* Efeito hover ao passar o mouse */
+.btn-salvar:hover {
+    background: #cc3e17;
+}
